@@ -1,0 +1,8 @@
+/Users/rgvdmin/Desktop/SACA - Intermediate/csharp-workbook/01Week/bin/Debug/netcoreapp1.1/01Week.deps.json
+/Users/rgvdmin/Desktop/SACA - Intermediate/csharp-workbook/01Week/bin/Debug/netcoreapp1.1/01Week.runtimeconfig.json
+/Users/rgvdmin/Desktop/SACA - Intermediate/csharp-workbook/01Week/bin/Debug/netcoreapp1.1/01Week.runtimeconfig.dev.json
+/Users/rgvdmin/Desktop/SACA - Intermediate/csharp-workbook/01Week/bin/Debug/netcoreapp1.1/01Week.dll
+/Users/rgvdmin/Desktop/SACA - Intermediate/csharp-workbook/01Week/bin/Debug/netcoreapp1.1/01Week.pdb
+/Users/rgvdmin/Desktop/SACA - Intermediate/csharp-workbook/01Week/obj/Debug/netcoreapp1.1/01Week.AssemblyInfo.cs
+/Users/rgvdmin/Desktop/SACA - Intermediate/csharp-workbook/01Week/obj/Debug/netcoreapp1.1/01Week.dll
+/Users/rgvdmin/Desktop/SACA - Intermediate/csharp-workbook/01Week/obj/Debug/netcoreapp1.1/01Week.pdb
