@@ -13,34 +13,37 @@ namespace ConsoleApplication
 
         public static string translateWord(string word)
         {
-        //equal
+            //equal
 
             word = word.ToLower();
             int vowelIndex = word.IndexOf('a'); //3
 
-            if ( (word.IndexOf('e') > -1) && (word.IndexOf('e') < vowelIndex) || (vowelIndex == -1) )
-{
-            vowelIndex = word.IndexOf('e');
-        
+            if ((word.IndexOf('e') > -1) && (word.IndexOf('e') < vowelIndex) || (vowelIndex == -1))
+            {
+                vowelIndex = word.IndexOf('e');
 
-}
-            if ( (word.IndexOf('i') > -1) && (word.IndexOf('i') < vowelIndex) || (vowelIndex == -1) ) {
 
-            vowelIndex = word.IndexOf('i'); 
+            }
+            if ((word.IndexOf('i') > -1) && (word.IndexOf('i') < vowelIndex) || (vowelIndex == -1))
+            {
+
+                vowelIndex = word.IndexOf('i');
             }
 
-            if ( (word.IndexOf('o') > -1) && (word.IndexOf('o') < vowelIndex) || (vowelIndex == -1) ) {
+            if ((word.IndexOf('o') > -1) && (word.IndexOf('o') < vowelIndex) || (vowelIndex == -1))
+            {
 
-            vowelIndex = word.IndexOf('o'); 
+                vowelIndex = word.IndexOf('o');
             }
-            if ( (word.IndexOf('u') > -1) && (word.IndexOf('u') < vowelIndex) || (vowelIndex == -1) ) {
+            if ((word.IndexOf('u') > -1) && (word.IndexOf('u') < vowelIndex) || (vowelIndex == -1))
+            {
 
-            vowelIndex = word.IndexOf('u'); 
+                vowelIndex = word.IndexOf('u');
             }
 
             string firstPart = word.Substring(0, vowelIndex);
             string restWord = word.Substring(vowelIndex, word.Length - 1);
-// 1
+            // 1
             Console.WriteLine("vowelIndex: " + vowelIndex);
 
             //hellow substring(0,1) == h
@@ -54,7 +57,7 @@ namespace ConsoleApplication
 
             Console.WriteLine(vowelIndex);
 
-           
+
 
             return "Pig Latin Word: " + restWord + firstPart + "ay";
         }
