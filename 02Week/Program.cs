@@ -9,8 +9,10 @@ namespace ConsoleApplication
             //Console.WriteLine("Hello World!");
             // PigLatin latin = new PigLatin();
             // latin.Run();
-            TicTacToe tictac = new TicTacToe();
-            tictac.Run();
+            //TicTacToe tictac = new TicTacToe();
+            //tictac.Run();
+            MyNewList newlist = new MyNewList();
+            newlist.Run();
 
         }
     }
