@@ -7,11 +7,12 @@ namespace _03Week
         static void Main(string[] args)
         {
 
+            Mastermind mastermind = new Mastermind();
+            mastermind.Run();
 
 
-
-            RockPaperScissors rockgame = new RockPaperScissors();
-            rockgame.Run();
+            // RockPaperScissors rockgame = new RockPaperScissors();
+            // rockgame.Run();
 
 
 
